@@ -32,14 +32,14 @@ public class App {
         // input your solution here
         char charLiteral = 'Z';
         int integerLiteralHex = 0xface;
-        int integerLiteralN = 012;
+        int integerLiteralOct = 012;
         long longLiteralxxL = 80L;
         float floatLiteralMeEf = 44e-1f;
         float floatLiteralMf = 5.5f;
         double doubleLiteralMeE = 8.88e1;
         double doubleLiteralMd = 99.9;
 
-        int sum = charLiteral + (int) integerLiteralHex + integerLiteralN + (int) longLiteralxxL +
+        int sum = charLiteral + integerLiteralHex + integerLiteralOct + (int) longLiteralxxL +
                 (int) floatLiteralMf + (int) floatLiteralMeEf + (int) doubleLiteralMd + (int) doubleLiteralMeE;
 
         System.out.println(sum);
@@ -127,7 +127,7 @@ public class App {
             System.out.println("Average Sales Revenue");
         else if ((50000 <= annualRevenue) && (annualRevenue < 80000))
             System.out.println("Good Sales Revenue");
-        else if ((50000 <= annualRevenue) && (annualRevenue < 80000))
+        else if ((80000 <= annualRevenue) && (annualRevenue < 100000))
             System.out.println("Excellent Sales Revenue");
         else
             System.out.println("Invalid Revenue");
