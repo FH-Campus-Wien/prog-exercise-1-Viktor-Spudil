@@ -33,13 +33,13 @@ public class App {
         char charLiteral = 'Z';
         int integerLiteralHex = 0xface;
         int integerLiteralOct = 012;
-        long longLiteralxxL = 80L;
+        long longLiteralxyzL = 80L;
         float floatLiteralMeEf = 44e-1f;
         float floatLiteralMf = 5.5f;
         double doubleLiteralMeE = 8.88e1;
         double doubleLiteralMd = 99.9;
 
-        int sum = charLiteral + integerLiteralHex + integerLiteralOct + (int) longLiteralxxL +
+        int sum = charLiteral + integerLiteralHex + integerLiteralOct + (int) longLiteralxyzL +
                 (int) floatLiteralMf + (int) floatLiteralMeEf + (int) doubleLiteralMd + (int) doubleLiteralMeE;
 
         System.out.println(sum);
